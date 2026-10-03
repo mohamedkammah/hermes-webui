@@ -962,3 +962,11 @@ For browser verification, keep the origin and a second session open, run an
 explicit disposable Kanban test task in a separate process, and check automatic
 progress/completion, reconnect recovery, one native and sidecar receipt per
 event, and no receipt in the second session.
+
+Controlled-fixture browser evidence (before the native event and after automatic
+receipt delivery in that same tab; desktop and 390px mobile):
+
+| Before receipt | After receipt |
+| --- | --- |
+| ![Desktop before](docs/ui-ux/kanban-origin-chat/before-desktop.png) | ![Desktop after](docs/ui-ux/kanban-origin-chat/after-desktop.png) |
+| ![Mobile before](docs/ui-ux/kanban-origin-chat/before-mobile.png) | ![Mobile after](docs/ui-ux/kanban-origin-chat/after-mobile.png) |
